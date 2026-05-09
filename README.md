@@ -2,6 +2,8 @@
 
 A clean and modern authentication UI built with Expo and React Native.
 
+This project is part of my [ChaiCode Mobile Dev Cohort 1 Archive](https://github.com/sameerbhagtani/mobile-dev-cohort-1). Checkout my entire journey there!
+
 ## Screenshots
 
 ![Sign In Screen](./assets/images/screenshots/sign-in-screen.png)
