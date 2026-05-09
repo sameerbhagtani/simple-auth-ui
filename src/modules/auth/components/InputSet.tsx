@@ -41,7 +41,11 @@ export default function InputSet({
             >
                 <Ionicons name={icon} size={24} />
 
-                <TextInput style={styles.input} {...textInputProps} />
+                <TextInput
+                    style={styles.input}
+                    placeholderTextColor="#9CA3AF"
+                    {...textInputProps}
+                />
 
                 {showPasswordToggle && (
                     <Pressable onPress={onTogglePassword}>
@@ -84,5 +88,6 @@ const styles = StyleSheet.create({
     input: {
         fontSize: 16,
         flex: 1,
+        color: "#2f2f2f",
     },
 });
